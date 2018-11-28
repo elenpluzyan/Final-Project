@@ -1,19 +1,26 @@
-
-
-body{
-	 background-image: url("http://www.redcarpetsystems.com/wp-content/uploads/2014/05/fashion-runway-rental-redcarpetsystems-dot-com-01.jpg");
-	background-size: cover;
-
+html, body{
+	padding: 0;
+	margin:0;
 }
 
+.wrapper{
+	background-image: url("http://obaiandhill.com/wp-content/uploads/2016/07/shutterstock_86246848-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%; 
+	width: 100%;
+}
 
 
 img {
 	position: absolute;
-	margin-left: 15%;
-display:inline-block;
-  height:100%;
+	margin-left: 5%;
+	margin-top: 70px;
+	display:inline-block;
+ /* height:100%;*/
 }
+
+
 
 
 button{
@@ -41,9 +48,17 @@ ul{
   z-index: 1;
 	}
 
+.btn_container{
+	width: 300px;
+	float: left;
+	padding:20px;
+}
 
-
-
+.option_row label{
+	width: 120px;
+	color: white;
+	margin-right: 20px;
+}
 
 
 
