@@ -13,28 +13,33 @@
 <body>
 <div class="wrapper">
   <div class="btn_container">
+    <h2>Your model</h2>
+    <br />
+    <label for="model-select">Choose a model:</label>
+    <select id="model-select" name="slct1" onchange="populateModel(this.id,'color-select')">
+      <option value=""></option>
+      <option value="Body">Body</option>
+      <option value="Face">Face</option>
+      <option value="Hair">Hair</option>
+    </select>
+    <br />
+    <label for="color-select">Choose the color:</label>
+    <select id="color-select" name="slct2"></select>
+    <br />
     
     <h2>Items</h2>
-
-    <div class="option_row">
-      <label>Choose an Item:</label>
-      <select id="slct1" name="slct1" onchange="populate(this.id,'slct2')">
-
-        <option value=""></option>
-
-        <option value="Tops">Tops</option>
-
-        <option value="Skirts">Skirts</option>
-
-        <option value="Dresses">Dresses</option>
-
-      </select>
-    </div>
-    <div class="option_row">
-      <label>Choose the color:</label>
-      <select disabled id="slct2" name="slct2"></select>
-    </div>
-
+    <br />
+    <label for="slct1">Choose an Item:</label>
+    <select id="slct1" name="slct1" onchange="populate(this.id,'slct2')">
+      <option value=""></option>
+      <option value="Tops">Tops</option>
+      <option value="Skirts">Skirts</option>
+      <option value="Dresses">Dresses</option>
+    </select>
+    <br />
+    <label for="slct2">Choose the color:</label>
+    <select disabled id="slct2" name="slct2"></select>
+    <br />
   </div>
 
 
@@ -77,6 +82,7 @@
 </body>
 <script src="js.js"></script>
 <script src="vica.js"></script>
+<script src="model.js"></script>
 
 
 </html>
