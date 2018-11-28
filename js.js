@@ -1,8 +1,4 @@
-
-
-
-
-  const canvas = document.getElementById('canvas');
+ const canvas = document.getElementById('canvas');
 
     const ctx = canvas.getContext("2d");
 
@@ -128,5 +124,3 @@ $(document).ready(function(){
     const rand = function(num) {
 
         return Math.floor(Math.random() * num) + 1;
-
-    };

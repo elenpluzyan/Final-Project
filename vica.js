@@ -1,4 +1,3 @@
-
 function populate(s1,s2){
 
 	s1 = document.getElementById(s1);
