@@ -2,14 +2,15 @@
 function populate(s1,s2){
 
 	s1 = document.getElementById(s1);
-
 	s2 = document.getElementById(s2);
-
 	s2.innerHTML = "";
+	s2.disabled = false;
 	
 	let optionArray = [];
 
-	if(s1.value == "Tops"){
+	if(s1.value == "") {
+		s2.disabled = true;
+	} else if(s1.value == "Tops"){
 
 		optionArray = ["|","pink|Pink","red|Red","white|White"];
 
