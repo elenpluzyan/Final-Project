@@ -1,7 +1,10 @@
-function populate(s1,s2){
+function populateItems(s1,s2){
 
 	s1 = document.getElementById(s1);
 	s2 = document.getElementById(s2);
+	
+ debugger;
+ 
 	s2.innerHTML = "";
 	s2.disabled = false;
 	
