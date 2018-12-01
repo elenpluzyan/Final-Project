@@ -3,13 +3,13 @@ function showDiv() {
    return false;
         }
 
-const Model = getElementById('shape-select');
+const Model = document.getElementById('shape-select');
 
-const Hair = getElementById('selectlength');
-const HairColor = getElementById('selectcolor1');
+const Hair = document.getElementById('selectlength');
+const HairColor = document.getElementById('selectcolor1');
 
-const Item = getElementById('selctitem');
-const ItemColor = getElementById('selectcolor2');
+const Item = document.getElementById('selctitem');
+const ItemColor = document.getElementById('selectcolor2');
 
 
 
@@ -21,11 +21,11 @@ const ChooseAModel = function(option){
 	  $('#3DHuman').hide();
 	  $('#AbstractHuman').hide();
 		
-	}else (Model.value === "Abstract Human"){
+	}else if(Model.value === "Abstract Human"){
 	  $('#Robot').hide();
 	  $('#3DHuman').hide();
 	}
-};
+}
 
 
 const ChooseAHairstyle = function (option){
@@ -36,12 +36,12 @@ const ChooseAHairstyle = function (option){
 	}else if(Hair.value === 'Medium'){
 		$('#Long').hide();
 		$('#Short').hide();
-	}else {
+	}else if(Hair.value === 'Short'){
 		$('#Long').hide();
 		$('#Short').hide();
 
 	}
-};
+}
 
 
 const ChooseAColorForAHairstyle = function (option){
@@ -62,7 +62,9 @@ const ChooseAColorForAHairstyle = function (option){
 		$('#Blonde').hide();
 		$('#Brown').hide();
 	}
-};
+}
+
+
 
 const ChooseAnItem = function (option){
 	if(Item.value === 'Top'){
@@ -79,7 +81,8 @@ const ChooseAnItem = function (option){
 		$('#Skirts').hide();
 		$('#Dresses').hide();
 	}
-};
+}
+
 
 const ChooseItemColor = function(option) {
 	if(ItemColor.value === 'Pink'){
@@ -150,7 +153,7 @@ const ChooseItemColor = function(option) {
 	    $('#White').hide();
 	}
 
-};
+}
 
 
 
