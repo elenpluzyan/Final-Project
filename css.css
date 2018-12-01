@@ -11,8 +11,10 @@ html, body{
 	width: 100%;
 }
 
-
-img {
+.character_div{
+	position: relative;
+}
+.character_div img {
 	position: absolute;
 	margin-left: 5%;
 	margin-top: 70px;
@@ -26,7 +28,7 @@ img {
 button{
 	width: 200px;
 	height: 100px;
-  margin-top:100%;
+  	margin-top:100%;
 }
 
 ul{
@@ -40,12 +42,12 @@ ul{
 }
 .shirt{
 	visibility:hidden;
-  z-index: 2;
+  	z-index: 2;
 }
 
 .pant{
 	visibility:hidden;
-  z-index: 1;
+  	z-index: 1;
 	}
 
 .btn_container{

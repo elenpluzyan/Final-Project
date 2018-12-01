@@ -17,55 +17,56 @@
     <br />
     <label for="model-select">Choose a model:</label>
     <select id="model-select" name="slct1" onchange="populateModel(this.id,'shape-select')">
-      <option value=""></option>
-     <option value="Body">Body</option>
+    <option value=""></option>
+    <option value="Body">Body</option>
     </select>
     <br />
     <label for="shape-select">Choose the body type</label>
     <select id="shape-select" name="slct2"></select>
     <br />
 
-  <h2>Choose a hairstyle</h2>
-  <br/>
-  <label for="seleclength"> Choose the length: </label>:
-    <select id="seleclength" name="selectlength" onchange="populateHair(event,this.id,'selectcolor1')">
-      <option value=""></option>
-      <option value="Long">Long</option>
-      <option value="Medium">Medium</option>
-      <option value="Short">Short</option>
+
+<h2>Choose a hairstyle</h2>
+<br/>
+<label for="seleclength"> Choose the length: </label>:
+  <select id="seleclength" name="selectlength" onchange="populateHair(event,this.id,'selectcolor1')">
+    <option value=""></option>
+    <option value="Long">Long</option>
+    <option value="Medium">Medium</option>
+    <option value="Short">Short</option>
   </select>
-  <br/>
+<br/>
   <label for="selectcolor1">Choose the color:</label>
   <select id="selectcolor1" name="selectlength"></select>
 
-
-
-    <h2>Items</h2>
-    <br />
-    <label for="selectitem">Choose an Item:</label>
-    <select id="selectitem" name="slctitem" onchange="populateItems(this.id,'selectitem')">
-      <option value=""></option>
-      <option value="Tops">Tops</option>
-      <option value="Skirts">Skirts</option>
-      <option value="Dresses">Dresses</option>
-    </select>
-    <br />
+<h2>Items</h2>
+<br />
+  <label for="selectitem">Choose an Item:</label>
+  <select id="selectitem" name="slctitem" onchange="populateItems(this.id,'selectcolor2')">
+    <option value=""></option>
+    <option value="Tops">Tops</option>
+    <option value="Skirts">Skirts</option>
+    <option value="Dresses">Dresses</option>
+  </select>
+<br />
     <label for="selectcolor2">Choose the color:</label>
     <select disabled id="selectcolor2" name="selectcolor2"></select>
     <br />
- </div>
+    <div id="div2" style="display: none;">Submitted</div>
+    <form name="test_form" action="#">
+      <input type="submit" onclick="return showDiv();" value="Submit" style="float: left" />
+    </form>
+</div>
+<br />
+
+<div class='character_div'>
+ <img id="Robot" src="img\rob.png" style="width: 40%"/> 
+ <img id="3DHuman" src="img\Abstract.png" style="width: 40%"/> 
+ <img id="AbstractHuman" src="img\3DHuman.png" style="width: 40%"/> 
 
 
-  </div>
+</div>
 
-
-
-
-
-
-
-
-  <img id="character" src="img/Robot.png" style="width: 40%"/> 
 
   <!-- <img id="top1" class="shirt" src="https://s-media-cache-ak0.pinimg.com/originals/25/43/a9/2543a9ef622c17ca0ccd1fae4441a8ac.png" />
 
@@ -105,6 +106,7 @@
 <script src="selectbuttonforitems.js"></script>
 <script src="hairbutton.js"></script>
 <script src="model.js"></script>
+<script src="submitbutton.js"></script>
 
 
 </html>
