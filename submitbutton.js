@@ -1,7 +1,4 @@
-function showDiv() {
- document.getElementById('div2').style.display = 'block';
-   return false;
-        }
+
 
 const Model = document.getElementById('shape-select');
 
@@ -12,23 +9,25 @@ const Item = document.getElementById('selctitem');
 const ItemColor = document.getElementById('selectcolor2');
 
 
-
-const ChooseAModel = function(option){
-	if(Model.value === '3D Human') {
+const ChooseAModel = function(){
+	  alert(Model.value)
+	if(Model.value == '3dmodel') {
 	  $('#Robot').hide();
 	  $('#AbstractHuman').hide(); 	
-	}else if (Model.value === "Robot"){
+	}else if (Model.value == "robot"){
 	  $('#3DHuman').hide();
 	  $('#AbstractHuman').hide();
 		
-	}else if(Model.value === "Abstract Human"){
+	}else if(Model.value == "abstract"){
 	  $('#Robot').hide();
 	  $('#3DHuman').hide();
 	}
+ 
 }
 
 
-const ChooseAHairstyle = function (option){
+
+const ChooseAHairstyle = function (){
 	if(Hair.value === 'Long'){
 	 $('#Medium').hide();
 	 $('#Short').hide();
@@ -44,7 +43,7 @@ const ChooseAHairstyle = function (option){
 }
 
 
-const ChooseAColorForAHairstyle = function (option){
+const ChooseAColorForAHairstyle = function (){
 	if(HairColor.value === 'Brown'){
 		$('#Red').hide();
 		$('#Blonde').hide();
@@ -157,5 +156,9 @@ const ChooseItemColor = function(option) {
 
 
 
-
+function showDiv() {
+ document.getElementById('div2').style.display = 'block';
+ChooseAModel();
+   return false;
+        }
 
