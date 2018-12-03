@@ -51,10 +51,10 @@ $("#shirt-menu").css("visibility", "visible"); });
 // const background = new Image();
 // background.src = 'C:\Users\elenp\Desktop\Pics\empty-fashion-show-runway-stage-empty-fashion-runway-related-keywords-amp-suggestions-empty.jpg';
 const  ModelOne = new Image();
-ModelOne.src = 'img/Robot.png';
+ModelOne.src = 'img\Robot.png';
 
 const ModelTwo = new Image();
-ModelTwo.src = 'img/Human_body.png';
+ModelTwo.src = 'img\Human_body.png';
 
 const ModelTree = new Image();
-ModelTree.src = 'img/Low-Poly-HumanM-ale.png';
+ModelTree.src = 'img\Low-Poly-HumanM-ale.png';
