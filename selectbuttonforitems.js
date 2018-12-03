@@ -21,7 +21,7 @@ function populateItems(s1,s2){
 
 	} else if(s1.value == "Dresses"){
 
-		optionArray = ["|","black|Black","white|White","peach|Peach","yellow|Yellow"];
+		optionArray = ["|","black|Black","peach|Peach","yellow|Yellow"];
 
 	}
 
