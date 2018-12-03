@@ -54,15 +54,15 @@ const ChooseAColorForAHairstyle = function (){
 	let value = HairColor.options[HairColor.selectedIndex].value;
 	let text = HairColor.options[HairColor.selectedIndex].text;
 	console.log(text)
-	if(text === 'brown'){
+	if(text === 'Brown'){
 		$('#Red').hide();
 		$('#Blonde').hide();
 		$('#Black').hide();
-	}else if(text === 'blonde'){
+	}else if(text === 'Blonde'){
 		$('#Red').hide();
 		$('#Brown').hide();
 		$('#Black').hide();
-	}else if(text === 'red'){
+	}else if(text === 'Red'){
 		$('#Brown').hide();
 		$('#Blonde').hide();
 		$('#Black').hide();

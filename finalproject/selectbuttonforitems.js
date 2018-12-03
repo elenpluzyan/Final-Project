@@ -19,11 +19,11 @@ function populateItems(s1,s2){
 
 		optionArray = ["|","darkblue|DarkBlue","black|Black","lightpink|LightPink","crimson|Crimson"];
 
-	} else if(s1.value == "Dresses"){
+	} //else if(s1.value == "Dresses"){
 
-		optionArray = ["|","black|Black","peach|Peach","yellow|Yellow"];
+		//optionArray = ["|","black|Black","peach|Peach","yellow|Yellow"];
 
-	}
+	//}
 
 	for(let option in optionArray){
 

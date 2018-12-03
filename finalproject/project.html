@@ -40,18 +40,30 @@
   <select disabled id="selectcolor1" name="selectlength"></select>
 
 <h2>Items</h2>
-<br />
-  <label for="selectitem">Choose an Item:</label>
-  <select id="selectitem" name="selectitem" onchange="populateItems(this.id,'selectcolor2')">
+    <br />
+    <label for="selectitem">Choose the Top:</label>
+    <select id="selectitem" name="slctitem" onchange="populateItems(this.id,'selectcolor2')">
     <option value=""></option>
     <option value="Tops">Tops</option>
-    <option value="Skirts">Skirts</option>
-    <option value="Dresses">Dresses</option>
-  </select>
-<br />
+    </select>
+    <br />
     <label for="selectcolor2">Choose the color:</label>
     <select disabled id="selectcolor2" name="selectcolor2"></select>
     <br />
+    
+    <h2>Your model</h2>
+    <br />
+    <label for="model-select">Choose a Skirt:</label>
+    <select id="model-select" name="slct1" onchange="populateModel(this.id,'shape-select')">
+    <option value=""></option>
+    <option value="Skirts">Skirts</option>
+    </select>
+    <br />
+    <label for="shape-select">Choose the Skirt Color</label>
+    <select disabled id="shape-select" name="slct2"></select>
+    <br /> 
+    
+
     <div id="div2" style="display: none;">Submitted</div>
     <form name="test_form" action="#">
       <input type="submit" onclick="return showDiv();" value="Submit" style="float: left" />

@@ -3,7 +3,7 @@ function showDiv() {
    return false;
         }
 
-const Model = getElementById('shape-select');
+//const Model = getElementById('shape-select');
 
 const Hair = getElementById('selectlength');
 const HairColor = getElementById('selectcolor1');
