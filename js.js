@@ -17,7 +17,6 @@ const hide_current_image = function() {
 		i += 1;
 	}
 }
-
 const show_next_image = function() {
 	if(choices){
 		if(i == (choices.length)) {
