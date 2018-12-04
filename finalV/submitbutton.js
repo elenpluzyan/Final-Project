@@ -1,35 +1,9 @@
 
-
-//const Model = document.getElementById('shape-select');
-
 const Hair = document.getElementById('selectlength');
 const HairColor = document.getElementById('selectcolor1');
 
 const Item = document.getElementById('selectitem');
 const ItemColor = document.getElementById('selectcolor2');
-
-
-/*const ChooseAModel = function(){
-	//let value = Model.options[Model.selectedIndex].value;
-	let text = Model.options[Model.selectedIndex].text;
-	console.log(text)
-	if(text == '3D Human') {
-		document.getElementById("myP").style.visibility = "hidden";
-	 // $('#3DHuman').show();	
-	  $('#Robot').hide();
-	 // $('#AbstractHuman').hide(); 	
-	}else if (text == "Robot"){
-	  $('#Robot').show();
-	  $('#3DHuman').hide();
-	  $('#AbstractHuman').hide();
-		
-	}else if(text == "Abstract Human"){
-	  $('#AbstractHuman').show();
-	  $('#Robot').hide();
-	  $('#3DHuman').hide();
-	}	
- 
-}*/
 
 const ChooseAHairstyle = function (){
 	let value = Hair.options[Hair.selectedIndex].value;
@@ -72,24 +46,6 @@ const ChooseAColorForAHairstyle = function (){
 		$('#Brown').hide();
 	}
 }
-
-
-
-// const ChooseAnItem = function (option){
-// 	let value = Item.options[Item.selectedIndex].value;
-// 	let text = Item.options[Item.selectedIndex].text;
-// 	console.log(text)
-// 	if(text === 'Tops'){
-// 		$('#Skirts').hide();
-// 		$('#Dresses').hide();
-// 	} else if(text === 'Skirts') {
-// 		$('#Tops').hide();
-// 		$('#Dresses').hide();
-// 	} else if(text === 'Dresses') {
-// 		$('#Tops').hide();
-// 		$('#Skirts').hide();
-// 	} 
-// }
 
 
 const ChooseItemColor = function(option) {
@@ -147,83 +103,6 @@ const ChooseItemColor = function(option) {
 	}
 
 }
-
-// const ChooseItemColor = function(option) {
-// 	let value = ItemColor.options[ItemColor.selectedIndex].value;
-// 	let text = ItemColor.options[ItemColor.selectedIndex].text;
-// 	console.log(text)
-// 	if(text === 'Pink'){
-		// $('#Red').hide();
-		// $('#White').hide();
-		// $('#DarkBlue').hide();
-		// $('#Black').hide();
-	    // $('#LightPink').hide();
-	    // $('#Peach').hide();
-		// $('#Yellow').hide();
-// 		showItem(text);
-//    } else if(text === 'Red') {
-//    	    $('#Pink').hide();
-// 		$('#White').hide();
-// 		$('#DarkBlue').hide();
-// 		$('#Black').hide();
-// 	    $('#LightPink').hide();
-// 	    $('#Peach').hide();
-// 	    $('#Yellow').hide();
-		
-// 	} else if(text === 'White') {
-// 		$('#Red').hide();
-// 		$('#Pink').hide()
-// 		$('#DarkBlue').hide();
-// 		$('#Black').hide();
-// 	    $('#LightPink').hide();
-// 	    $('#Peach').hide();
-// 	    $('#Yellow').hide();
-// 	} else if(text === 'DarkBlue'){
-// 		$('#Red').hide();
-// 		$('#Pink').hide();
-// 		$('#White').hide();
-// 		$('#Black').hide();
-// 	    $('#LightPink').hide();
-// 	    $('#Peach').hide();
-// 	    $('#Yellow').hide();
-		
-// 	} else if(text === 'Black'){
-// 		$('#Red').hide();
-// 		$('#Pink').hide()
-// 		$('#DarkBlue').hide();
-// 		$('#White').hide();
-// 	    $('#LightPink').hide();
-// 	    $('#Peach').hide();
-// 	    $('#Yellow').hide();
-// 	} else if(text === 'LightPink'){
-// 		$('#Red').hide();
-// 		$('#Pink').hide();
-// 		$('#DarkBlue').hide();
-// 		$('#Black').hide();
-// 	    $('#White').hide();
-// 	    $('#Peach').hide();
-// 	    $('#Yellow').hide();
-// 	} else if(text === 'Peach'){
-// 		$('#Red').hide();
-// 		$('#Pink').hide();
-// 		$('#DarkBlue').hide();
-// 		$('#Black').hide();
-// 	    $('#LightPink').hide();
-// 	    $('#White').hide();
-// 	    $('#Yellow').hide();
-// 	} else if(text === 'Yellow'){
-// 		$('#Red').hide();
-// 		$('#Pink').hide();
-// 		$('#DarkBlue').hide();
-// 		$('#Black').hide();
-// 	    $('#LightPink').hide();
-// 	    $('#Peach').hide();s
-// 	    $('#White').hide();
-// 	}
-
-// }
-
-
 
 const showDiv = function(){
 	document.getElementById('div2').style.display = 'block'

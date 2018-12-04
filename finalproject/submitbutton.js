@@ -62,7 +62,7 @@ const ChooseAColorForAHairstyle = function (){
 		$('#Red').hide();
 		$('#Brown').hide();
 		$('#Black').hide();
-	}else if(text === 'Red'){
+	}else if(text === 'ed'){
 		$('#Brown').hide();
 		$('#Blonde').hide();
 		$('#Black').hide();
@@ -151,95 +151,6 @@ const ChooseItemColor = function(option) {
 	}
 
 }
-
-
-
-
-
-
-
-
-	/*if(text === 'Tops'){{
-		if(text2 === 'White')
-			$('#WhiteTop').show();
-	}
-		$('#Red').hide();
-		$('#White').hide();
-		$('#DarkBlue').hide();
-		$('#Black').hide();
-	    $('#LightPink').hide();
-	    $('#Peach').hide();
-	    $('#Yellow').hide();
-   } else if(text === 'Red') {
-   	    $('#Pink').hide();
-		$('#White').hide();
-		$('#DarkBlue').hide();
-		$('#Black').hide();
-	    $('#LightPink').hide();
-	    $('#Peach').hide();
-	    $('#Yellow').hide();
-		
-	} else if(text === 'White') {
-		$('#Red').hide();
-		$('#Pink').hide()
-		$('#DarkBlue').hide();
-		$('#Black').hide();
-	    $('#LightPink').hide();
-	    $('#Peach').hide();
-	    $('#Yellow').hide();
-	} else if(text === 'DarkBlue'){
-		$('#Red').hide();
-		$('#Pink').hide();
-		$('#White').hide();
-		$('#Black').hide();
-	    $('#LightPink').hide();
-	    $('#Peach').hide();
-	    $('#Yellow').hide();
-		
-	} else if(text === 'Black'){
-		$('#Red').hide();
-		$('#Pink').hide()
-		$('#DarkBlue').hide();
-		$('#White').hide();
-	    $('#LightPink').hide();
-	    $('#Peach').hide();
-	    $('#Yellow').hide();
-	} else if(text === 'LightPink'){
-		$('#Red').hide();
-		$('#Pink').hide();
-		$('#DarkBlue').hide();
-		$('#Black').hide();
-	    $('#White').hide();
-	    $('#Peach').hide();
-	    $('#Yellow').hide();
-	} else if(text === 'Peach'){
-		$('#Red').hide();
-		$('#Pink').hide();
-		$('#DarkBlue').hide();
-		$('#Black').hide();
-	    $('#LightPink').hide();
-	    $('#White').hide();
-	    $('#Yellow').hide();
-	} else if(text === 'Yellow'){
-		$('#Red').hide();
-		$('#Pink').hide();
-		$('#DarkBlue').hide();
-		$('#Black').hide();
-	    $('#LightPink').hide();
-	    $('#Peach').hide();s
-	    $('#White').hide();
-	}
-
-}*/
-
-
-
-/*function showDiv() {
- document.getElementById('div2').style.display = 'block'
-ChooseItemColor();
-
-   return false;
-}*/
 
 const showDiv = function(){
 	document.getElementById('div2').style.display = 'block'
