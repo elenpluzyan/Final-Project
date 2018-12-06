@@ -14,7 +14,6 @@
 <div class="wrapper">
   <div class="btn_container">
 
-
 <iframe width = "0" height="0" src="https://www.youtuberepeater.com/watch?v=GuJQSAiODqI&name=Madonna+Vogue" frameborder="0" allowfullscreen></iframe>
 
 <h2>Choose a Hairstyle</h2>
@@ -41,7 +40,7 @@
     <label for="selectcolor2">Choose the color:</label>
     <select disabled id="selectcolor2" name="selectcolor2"></select>
     <br />
-
+    <br/>
     <label for="model-select">Choose a Skirt:</label>
     <select id="model-select" name="slct1" onchange="populateModel(this.id,'shape-select')">
     <option value=""></option>
@@ -63,6 +62,18 @@
     <label for="shape-select1">Choose the dresses type</label>
     <select disabled id="shape-select1" name="slct2"></select>
     <br />
+
+    <br />
+    <label for="model-select">Choose a dress:</label>
+    <select id="model-select" name="slct1" onchange="populateDress(this.id,'shape-select')">
+    <option value=""></option>
+    <option value="Dresses">Dresses</option>
+    </select>
+    <br />
+    <label for="shape-select">Choose the dress color</label>
+    <select disabled id="shape-select" name="slct2"></select>
+    <br />
+
 
     
 
